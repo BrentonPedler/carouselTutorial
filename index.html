@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carousel Tutorial</title>
+</head>
+<body>
+   
+    <!-- ARIA LABEL FOR ACCESSIBILITY -->
+    <section aria-label="New Photos">
+        <div class="carousel" data-carousel>
+            <button class="carouselButton prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carouselButton next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="https://www.placecage.com/c/500/500" alt="Crazy Nicholas Cage">
+                </li>
+                <li class="slide">
+                    <img src="https://placebear.com/g/500/500" alt="Bear">
+                </li>
+                <li class="slide">
+                    <img src="http://placekitten.com/g/500/500" alt="Kitten">
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
